@@ -1,4 +1,4 @@
-import { FaGithub } from "react-icons/fa6";
+import { Github, Linkedin } from "lucide-react";
 import { SiCodeforces, SiCodechef, SiLeetcode } from "react-icons/si";
 
 export const Profiles = () => {
@@ -58,7 +58,7 @@ export const Profiles = () => {
             rel="noopener noreferrer"
             className="p-6 rounded-2xl shadow-md bg-card hover:scale-105 transition transform opacity-0 animate-fade-in-delay-8"
           >
-            <FaGithub className="text-4xl mx-auto text-primary mb-3" />
+            <Github className="text-4xl mx-auto text-primary mb-3" />
             <h3 className="font-semibold text-foreground">GitHub</h3>
             <p className="text-sm text-muted-foreground">Web Dev Projects</p>
           </a>
