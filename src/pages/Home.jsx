@@ -23,7 +23,7 @@ export const Home=()=>{
       <Hero />
       <AboutMe />
       <Skill />
-      <Profiles/>
+{/*       <Profiles/> */}
       <ContactMe />
     </main>
     {/* footer */}
