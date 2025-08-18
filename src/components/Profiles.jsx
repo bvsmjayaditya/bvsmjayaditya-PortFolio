@@ -1,4 +1,4 @@
-import { FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 import { SiCodeforces, SiCodechef, SiLeetcode } from "react-icons/si";
 
 export const Profiles = () => {
