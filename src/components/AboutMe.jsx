@@ -17,11 +17,14 @@ export const AboutMe = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              I’m a Third-year Computer Science student at{" "}
-              <span className="font-medium text-primary">IIITDM Jabalpur</span>, 
-              passionate about solving algorithmic challenges and writing efficient solutions.  
-              With strong foundations in Data Structures and Algorithms, I actively participate in coding contests 
-              while also exploring full-stack development with React, Node.js, and databases.
+              <p>
+                I am a third-year Computer Science student at 
+                <span class="font-medium text-primary">IIITDM Jabalpur</span>, 
+                with a strong interest in algorithmic problem-solving and building efficient solutions. 
+                I have a solid foundation in Data Structures and Algorithms, regularly participate in coding contests, 
+                and am expanding my skills in full-stack development with React, Node.js, and modern databases.
+              </p>
+
             </p>
 
             <p className="text-muted-foreground">
