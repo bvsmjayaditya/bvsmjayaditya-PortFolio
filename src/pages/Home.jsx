@@ -7,26 +7,23 @@ import { Skill } from "../components/Skills";
 import { Profiles } from "../components/Profiles";
 import { ContactMe } from "../components/ContactSection";
 
-export const Home=()=>{
+export const Home = () => {
   return (
-  <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
-    
-    {/* theme */}
-    <ThemeToggle/>
-    {/* bg effects */}
-    <StarBackground />
-    {/* navbar */}
-    <Navbar />
-    {/* main context */}
+    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+      {/* Background effects */}
+      <StarBackground />
 
-    <main>
-      <Hero />
-      <AboutMe />
-      <Skill />
-      <Profiles/>
-      <ContactMe />
-    </main>
-    {/* footer */}
-  </div>
-    );
-}
+      {/* Navbar (includes ThemeToggle) */}
+      <Navbar />
+
+      {/* Main content */}
+      <main>
+        <Hero />
+        <AboutMe />
+        <Skill />
+        <Profiles />
+        <ContactMe />
+      </main>
+    </div>
+  );
+};
